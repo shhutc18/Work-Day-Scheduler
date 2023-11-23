@@ -1,3 +1,10 @@
+window.onload = function() {
+  var currentDate = new Date();
+  var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  var formattedDate = currentDate.toLocaleDateString('en-US', options);
+  document.getElementById('currentDay').textContent = formattedDate;
+}
+
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.

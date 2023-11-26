@@ -1,9 +1,10 @@
-window.onload = function() {
-  var currentDate = new Date();
-  var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-  var formattedDate = currentDate.toLocaleDateString('en-US', options);
-  document.getElementById('currentDay').textContent = formattedDate;
-}
+$(document).ready(function() {
+  // Upon loading application, the current date will be displayed in the header, 
+  // using the Day.js library.
+  var currentDate = dayjs();
+  var formattedDate = currentDate.format('dddd, MMMM D, YYYY');
+  $('#currentDay').text(formattedDate);
+});
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements

@@ -18,11 +18,11 @@ I worked on this project with my study group peers, Chase Seeberger and Will Sch
 
 ## Link
 
-<!-- Include link to DEPLOYED application -->
+https://shhutc18.github.io/Work-Day-Scheduler/
 
 ## Screenshot
 
-<!-- Include screenshot of finished application -->
+<img src="./Assets/images/Scheduler Final.jpg">
 
 ## License
 

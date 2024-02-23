@@ -14,7 +14,7 @@ To use this webpage, you can add your to-do tasks or a list of items you need to
 
 ## Credits
 
-The starter code was provided to me by University of Oregon bootcamp.
+The starter code was provided to me by University of Oregon bootcamp. I worked on this project with my peers, Chase Seeberger and Will Schickler.
 
 ## Link
 
